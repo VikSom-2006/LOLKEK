@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уютный Уголок - Кофейня и книжный магазин</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo" data-page="home">Уютный Уголок</a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link active" data-page="home">Главная</a></li>
+                    <li><a href="#" class="nav-link" data-page="menu">Меню</a></li>
+                    <li><a href="#" class="nav-link" data-page="about">О нас</a></li>
+                    <li><a href="#" class="nav-link" data-page="contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главная страница -->
+    <section id="home" class="page active">
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Ваш уголок для отдыха и вкуса</h1>
+                    <p>Три идеальных ингридиента:кофе,книга,душевная компания.Найдите свой уголок!</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary" data-page="menu">Посмотреть меню</a>
+                        <a href="#" class="btn btn-secondary" data-page="contacts">Найти нас</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <section>
+                <div class="section-title">
+                    <h2>Почему выбирают нас</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Мы создали место, где каждый может найти свой уголок уюта. Здесь вы можете насладиться ароматным кофе, погрузиться в чтение любимой книги или просто провести время с друзьями в теплой атмосфере.</p>
+                        <p>Наша команда тщательно отбирает кофейные зерна и создает уникальные рецепты напитков. Мы также предлагаем широкий выбор книг для чтения в нашем зале.</p>
+                        <a href="#" class="btn btn-primary" data-page="about">Узнать больше</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/interior-1.jpg" alt="Интерьер кофейни">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Страница "Меню" -->
+    <section id="menu" class="page">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наше меню</h2>
+            </div>
+            
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="images/espresso.jpg" alt="Эспрессо" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3>Эспрессо</h3>
+                        <p>Классический крепкий кофе, приготовленный под высоким давлением. Идеальное начало дня.</p>
+                        <p class="price">180 ₽</p>
+                    </div>
+                </div>
+                
+                <div class="menu-card">
+                    <img src="images/latte.jpg" alt="Латте" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3>Латте</h3>
+                        <p>Нежный кофейный напиток с молоком и воздушной молочной пенкой. Доступен с сиропом по вашему выбору.</p>
+                        <p class="price">240 ₽</p>
+                    </div>
+                </div>
+                
+                <div class="menu-card">
+                    <img src="images/green-tea.jpg" alt="Зеленый чай" class="menu-card-img">
+                    <div class="menu-card-content">
+<h3>Зеленый чай</h3>
+                        <p>Ароматный зеленый чай высшего сорта. Освежающий и тонизирующий напиток со свежей мятой.</p>
+                        <p class="price">150 ₽</p>
+                    </div>
+                </div>
+                
+                <div class="menu-card">
+                    <img src="images/chocolate-cake.jpg" alt="Шоколадный торт" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3>Шоколадный торт</h3>
+                        <p>Нежный бисквит с насыщенным шоколадным вкусом. Украшен нежной карамелью и мороженным.</p>
+                        <p class="price">280 ₽</p>
+                    </div>
+                </div>
+                
+                <div class="menu-card">
+                    <img src="images/cookies.jpg" alt="Печенье" class="menu-card-img">
+                    <div class="menu-card-content">
+                        <h3>Домашнее печенье</h3>
+                        <p>Свежеиспеченное печенье с шоколадными кусочками и орехами. Идеально к кофе или чаю.</p>
+                        <p class="price">120 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Страница "О нас" -->
+    <section id="about" class="page">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наша история</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>"Уютный Уголок" появился в 2015 году как небольшая кофейня в центре города. Основатели, Анна и Михаил, мечтали создать место, где люди могут отдохнуть от городской суеты, насладиться качественным кофе и хорошей книгой.</p>
+                    <p>Со временем наша кофейня превратилась в популярное место среди местных жителей и гостей города. Мы расширили ассортимент, добавив не только кофе и чай, но и разнообразные десерты собственного производства.</p>
+                    <p>Наша философия проста: создавать уютную атмосферу, где каждый чувствует себя как дома. Мы тщательно отбираем продукты, обучаем наших бариста и постоянно совершенствуем наш сервис.</p>
+                    <p>Сегодня "Уютный Уголок" - это не просто кофейня, а сообщество людей, которые ценят качество, комфорт и хорошую компанию.</p>
+                    <a href="#" class="btn btn-primary" data-page="contacts">Связаться с нами</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/interior-2.jpg" alt="Интерьер кофейни">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Страница "Контакты" -->
+    <section id="contacts" class="page">
+        <div class="container">
+            <div class="section-title">
+                <h2>Приходите в гости</h2>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <div class="contact-details">
+                        <p><strong>Адрес:</strong> г. Москва, ул. Уютная, д. 15</p>
+                        <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+                        <p><strong>Email:</strong> info@uyutniy-ugolok.ru</p>
+                        <p><strong>Часы работы:</strong></p>
+                        <p>Пн-Пт: 8:00 - 22:00</p>
+                        <p>Сб-Вс: 9:00 - 23:00</p>
+                    </div>
+                    
+                    <div class="map">
+                        <div id="map-placeholder">
+                            <p>Карта местоположения</p>
+                            <p>г. Москва, ул. Уютная, д. 15</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Обратная связь</h3>
+                    <form id="feedback-form">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+<input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">Уютный Уголок</div>
+                    <p>Кофейня и книжный магазин в центре Москвы. Мы создаем уютное пространство для отдыха, работы и встреч с друзьями.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#" data-page="home">Главная</a></li>
+                        <li><a href="#" data-page="menu">Меню</a></li>
+                        <li><a href="#" data-page="about">О нас</a></li>
+                        <li><a href="#" data-page="contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li>г. Москва, ул. Уютная, д. 15</li>
+                        <li>+7 (495) 123-45-67</li>
+                        <li>info@uyutniy-ugolok.ru</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Уютный Уголок. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
